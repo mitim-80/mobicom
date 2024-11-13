@@ -1,0 +1,16 @@
+.background {
+  width: 1500px;
+  height: 900px;
+  background-color: blueviolet;
+  padding: 50px 50px 0px 50px;
+}
+/* section1 */
+/* .section1 {
+  
+} */
+.sec1-top {
+  background-color: black;
+  width: 1500px;
+  height: 72px;
+  border-radius: 15px;
+}
