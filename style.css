@@ -41,19 +41,21 @@
 }
 .haih {
   border-radius: 20px;
-  background-color: #ffffff1a;
+  background-color: #505050;
   display: flex;
   gap: 10px;
   align-items: center;
   border: none;
   height: 36px;
 }
-.haih:focus {
+input:focus {
   outline: none;
+  border: none;
 }
 .haih input {
-  background-color: #ffffff1a;
+  background-color: #505050;
   border: none;
+  font-size: 18px;
 }
 /* .text {
   font: inherit;
@@ -108,4 +110,58 @@
   border-radius: 15px;
   background-color: #ffffff1a;
   border: none;
+}
+/* section2 */
+.section2 {
+  width: 1500px;
+  height: 800px;
+  margin-top: 30px;
+}
+.fone-pic {
+  width: 1500px;
+  height: 750px;
+  background-image: url("./card-pic5.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+}
+
+.sec2-left {
+  flex-direction: column;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: auto;
+}
+.sec2-left h1 {
+  color: #f7f7f7;
+  font-size: 40px;
+}
+.line {
+  width: 200px;
+  height: 20px;
+  display: flex;
+  gap: 20px;
+  background-color: aquamarine;
+}
+.line1 {
+  width: 100px;
+  height: 10px;
+  border-radius: 20px;
+  color: rgb(223, 23, 23);
+}
+.line p {
+  color: #f7f7f7;
+  font-size: 20px;
+}
+.line2-button {
+  width: 24px;
+  height: 24px;
+}
+.sec2-rigth {
+  width: 750px;
+  height: 750px;
 }
