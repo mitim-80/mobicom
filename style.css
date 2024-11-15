@@ -4,11 +4,31 @@
   margin: 0; */
 }
 
+/* .h {
+  border: 1px solid red;
+  width: 100%;
+  margin-top: 30px;
+  height: 100px;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.h > div:first-child {
+  border: 1px solid green;
+  flex-grow: 1;
+}
+
+.h > div:nth-child(2) {
+  border: 1px solid blue;
+  width: 550px;
+} */
+
 .background {
   width: 1500px;
   height: 900px;
   background-color: rgb(29, 37, 45, 1);
-  padding: 20px 50px 0px 50px;
+  padding: 20px;
 }
 /* section1 */
 /* .section1 {
@@ -113,7 +133,7 @@ input:focus {
 }
 /* section2 */
 .section2 {
-  width: 1500px;
+  width: 100%;
   height: 800px;
   margin-top: 15px;
   background-image: url("https://osa.mobicom.mn/content/mcommerce/uploads/DJI_20231028181037_0240_D_MAX_Recovered_ezgif_com_jpg_to_webp_converter_d02db53f44.webp");
@@ -122,15 +142,15 @@ input:focus {
   border-radius: 15px;
 }
 .fone {
-  width: 1000px;
+  width: 100%;
   height: 600px;
-  margin: auto;
+
   display: flex;
-  padding-top: 100px;
+  padding: 96px;
 }
 
 .sec2-left {
-  width: 420px;
+  flex-grow: 1;
   height: 240px;
   display: flex;
   gap: 40px;
@@ -141,7 +161,7 @@ input:focus {
   width: 336px;
   height: 45px;
   color: #f7f7f7;
-  font-size: 36px;
+  font-size: 48px;
 }
 .doorh {
   width: 420px;
@@ -169,13 +189,111 @@ input:focus {
   background-image: url(https://www.mobicom.mn/icons/search.svg);
 }
 .sec2-rigth {
-  width: 750px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   flex-direction: column;
   gap: 30px;
-  /* padding: 100px 100px 0px 0px; */
+  padding: 60px 200px 0px 0px;
 }
 .ar {
-  width: 700px;
-  height: 550px;
+  width: 450px;
+  height: 450px;
+  background-color: #ffffff1a;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+.top-ar {
+  width: 400px;
+  height: 45px;
+  background-color: #ffffffd9;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.top-ar1 {
+  width: 350px;
+  height: 35px;
+  background-color: #1f1f1ff2;
+  border-radius: 15px;
+  color: #f7f7f7;
+  padding: 5px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+/* rigth-bottom */
+.bottom-ar {
+  width: 400px;
+  height: 400px;
+  background-color: #ffffffd9;
+  border-radius: 15px;
+  /* padding-top: 50px; */
+  padding: 10px;
+  margin-top: 10px;
+}
+.bottom-ar1 {
+  display: flex;
+  gap: 10px;
+}
+/* detail-1 */
+.detail-1 {
+  width: 200px;
+  height: 390px;
+  background-color: rgb(4, 10, 8);
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+}
+.negj {
+  width: 150px;
+  height: 120px;
+  /* background-color: cadetblue; */
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.zon {
+  border-radius: 50%;
+  box-shadow: inset 0 0 4px 0 #f87171;
+  width: 70px;
+  height: 70px;
+  background-image: url("./zon-pic.png");
+}
+.zon img {
+  background-color: transparent;
+}
+.sim {
+  width: 150px;
+  height: 120px;
+  background-color: cadetblue;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.wifi {
+  width: 150px;
+  height: 120px;
+  background-color: cadetblue;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+/* detail-2 */
+.detail-2 {
+  width: 200px;
+  height: 390px;
+  background-color: rgb(56, 190, 146);
+  flex-direction: column;
+  gap: 10px;
 }
