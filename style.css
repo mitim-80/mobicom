@@ -115,53 +115,67 @@ input:focus {
 .section2 {
   width: 1500px;
   height: 800px;
-  margin-top: 30px;
-}
-.fone-pic {
-  width: 1500px;
-  height: 750px;
-  background-image: url("./card-pic5.jpg");
+  margin-top: 15px;
+  background-image: url("https://osa.mobicom.mn/content/mcommerce/uploads/DJI_20231028181037_0240_D_MAX_Recovered_ezgif_com_jpg_to_webp_converter_d02db53f44.webp");
   background-position: center;
   background-size: cover;
   border-radius: 15px;
+}
+.fone {
+  width: 1000px;
+  height: 600px;
+  margin: auto;
   display: flex;
+  padding-top: 100px;
 }
 
 .sec2-left {
-  flex-direction: column;
-  width: 600px;
-  height: 300px;
+  width: 420px;
+  height: 240px;
   display: flex;
-  gap: 20px;
-  justify-content: center;
-  margin: auto;
+  gap: 40px;
+  flex-direction: column;
+  padding: 340px 50px 0px 70px;
 }
 .sec2-left h1 {
+  width: 336px;
+  height: 45px;
   color: #f7f7f7;
-  font-size: 40px;
+  font-size: 36px;
+}
+.doorh {
+  width: 420px;
+  height: 57px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: aquamarine; */
+  margin-top: 40px;
 }
 .line {
-  width: 200px;
-  height: 20px;
-  display: flex;
-  gap: 20px;
-  background-color: aquamarine;
-}
-.line1 {
-  width: 100px;
-  height: 10px;
+  width: 168px;
+  height: 6px;
   border-radius: 20px;
-  color: rgb(223, 23, 23);
+  background-color: #f7f7f7;
 }
-.line p {
+.doorh p {
   color: #f7f7f7;
   font-size: 20px;
 }
-.line2-button {
+.line-button {
   width: 24px;
   height: 24px;
+  background-image: url(https://www.mobicom.mn/icons/search.svg);
 }
 .sec2-rigth {
   width: 750px;
-  height: 750px;
+  height: 600px;
+  flex-direction: column;
+  gap: 30px;
+  /* padding: 100px 100px 0px 0px; */
+}
+.ar {
+  width: 700px;
+  height: 550px;
 }
